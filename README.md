@@ -1,6 +1,6 @@
 # TaskManagementV2
 To setup the task management application, please follow the below setup.
-1. npm install, npm install express, npm install sequelize pg pg-hstore, npm install -g sequelize-cli  
+1. npm install, npm install express, npm install sequelize, pg pg-hstore, npm install -g sequelize-cli  
 2. For database migration and seed initial sample datas please update config.js file based on your local database properties, then run sequelize db:createdb and sequelize db:seed:all. This will create a database in postgres and inserts all the sample datas into the database.
 3. To run the application, Run 'node app'. By default application starts with port:5000.
 
